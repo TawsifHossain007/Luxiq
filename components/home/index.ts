@@ -1,0 +1,10 @@
+export { HeroSection } from './hero-section';
+export { FeaturedProducts } from './featured-products';
+export { StatsSection } from './stats-section';
+export { CategoriesShowcase } from './categories-showcase';
+export { Testimonials } from './testimonials';
+export { NewsletterSignup } from './newsletter-signup';
+export { SaleBanner } from './sale-banner';
+export { BrandShowcase } from './brand-showcase';
+export { FeaturesGrid } from './features-grid';
+export { TrendingNow } from './trending-now';

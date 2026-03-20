@@ -38,7 +38,7 @@ export default function RegisterPage() {
     <div className="min-h-screen bg-linear-to-br from-ivory via-background to-violet-muted flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
         {/* Logo Section */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 pb-6 border-b border-violet/20">
           <div className="flex justify-center mb-4">
             <Logo size="lg" />
           </div>

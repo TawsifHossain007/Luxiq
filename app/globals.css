@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
-
 @import "tailwindcss";
+@plugin "daisyui";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -153,5 +153,15 @@
   ::-webkit-scrollbar-thumb {
     background: rgba(196, 164, 94, 0.30);
     border-radius: 99px;
+  }
+}
+
+/* ─── Utilities ─── */
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 }
